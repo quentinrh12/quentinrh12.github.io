@@ -1,0 +1,66 @@
+h1 {
+    left: 50%;
+  font-size:100px;
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+						8px 8px #ff841ffd,
+						20px 20px #000000;   
+}
+
+body {
+    text-align: center;
+    color:whitesmoke;
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+}
+
+#MCG_UP {
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    padding: 15px 30px;
+    display: inline-block;
+    color: whitesmoke;
+    background-color: blue;
+}
+
+#MCG_DOWN {
+    color:green; 
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.buttons {
+    background-color: rgb(8, 236, 8);
+}
+
+.map {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: "100px";
+    font-weight: "bold";
+    background-color: orange;
+    margin-top: "0px";
+    height: "75px";
+}

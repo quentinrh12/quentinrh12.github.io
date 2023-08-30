@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> MacGuessr </title>
+    <link href = "layout.css" rel = "stylesheet">
+</head>
+
+<body id = "body">    
+    <h1> MacGuessr! </h1>
+    <p id = "MCG_UP"> </p>
+    <p id = "MCG_DOWN" > </p> 
+    <button id = "Button" onclick = "runGame()"> click here </button>
+    <script src="map.js"></script>
+    <div id="countdown"></div>
+    <div id="gameBoard" class="row" style="height:'600px'">
+        <div id="map" class="column"></div>
+        <div id="buttons" class="column" ></div>
+        <div id="image" class="column" ></div>
+      </div>
+</body>
+</html>
